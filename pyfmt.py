@@ -851,6 +851,9 @@ custom_key_renderers = {
         "third_formatting": empty_string,
         "fourth_formatting": empty_string,
     },
+    "unitary_operator": {
+        "formatting": empty_string,
+    },
 }
 
 advanced_formatters = {
