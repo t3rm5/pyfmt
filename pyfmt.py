@@ -734,6 +734,12 @@ empty_string = lambda _: ""
 
 
 custom_key_renderers = {
+    "call": {
+        "first_formatting": empty_string,
+        "second_formatting": empty_string,
+        "third_formatting": empty_string,
+        "fourth_formatting": empty_string,
+    },
     "comma": {
         "first_formatting": empty_string,
     },
