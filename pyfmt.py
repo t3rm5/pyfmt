@@ -808,6 +808,10 @@ custom_key_renderers = {
     "list_argument": {
         "formatting": empty_string,
     },
+    "raise": {
+        "second_formatting": empty_string,
+        "fourth_formatting": empty_string,
+    },
     "return": {
         "formatting": lambda _, node: " " if node["value"] else ""
     },
