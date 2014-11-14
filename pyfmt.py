@@ -861,6 +861,9 @@ custom_key_renderers = {
         "second_formatting": empty_string,
         "third_formatting": empty_string,
     },
+    "yield": {
+        "formatting": lambda _, node: " " if node["value"] else ""
+    },
 }
 
 advanced_formatters = {
